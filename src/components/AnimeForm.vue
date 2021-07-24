@@ -3,14 +3,14 @@
     <v-form>
       <v-container>
         <v-row>
-          <v-col cols="12">
+          <v-col cols="12" class="pb-0">
             <v-select
               :items="items"
               v-model="select"
               :label="'Search By: ' + select"
             ></v-select>
           </v-col>
-          <v-col cols="12">
+          <v-col cols="12" class="pt-0">
             <v-text-field
               :loading="loading"
               :disabled="!select"
